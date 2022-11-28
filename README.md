@@ -16,7 +16,7 @@ y = 0
 for n in range(101):
     fn = f(n)
     y += fn
-    print(str(n) + ": " + str(n))
+    print(str(n) + ": " + str(fn))
 
 print("y = " + str(y))
 ```
