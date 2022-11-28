@@ -1,5 +1,5 @@
 # math to code
-some examples of converting math equations to code
+some examples of converting math equations to code. 
 
 todo: fix mathjax
 ```math
@@ -11,18 +11,18 @@ y = \sum_{n=100}f(n)
 def f(n):
     return n * n
 
-
 # y = sum(f(n)) where n = [0 to 100]
-total_sum = 0
-for n in range(100):
-    y = f(n)
-    total_sum += y
-    print(str(n) + ": " + str(y))
+y = 0
+for n in range(101):
+    fn = f(n)
+    y += fn
+    print(str(n) + ": " + str(n))
 
-print("sum: " + str(total_sum))
+print("y = " + str(y))
 ```
+note 101 which is n+1 due to 0 based indexing in range() 
 
-output n: f(n) and sum
+output n: f(n) and y
 ```
 0: 0
 1: 1
@@ -44,6 +44,6 @@ output n: f(n) and sum
 98: 9604
 99: 9801
 100: 10000
-sum: 338350
+y = 338350
 ```
 
