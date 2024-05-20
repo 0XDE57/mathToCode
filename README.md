@@ -47,3 +47,7 @@ output n: f(n) and y
 y = 338350
 ```
 
+---
+I was gonna do a bunch more but I am lazy and can't seem to focus. Anywho, check this out:
+
+https://www.youtube.com/watch?v=ba3dYob18_A
